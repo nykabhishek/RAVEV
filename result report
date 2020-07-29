@@ -1,0 +1,550 @@
+SVM HOG
+
+Accuracy SVM - HOG : 58.02%
+
+Precision Score SVM - HOG: 53.30%
+
+Recall Score SVM - HOG: 100.00%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       1.00      0.19      0.33       211
+        car       0.53      1.00      0.70       194
+
+avg / total       0.78      0.58      0.50       405
+
+Confusion Matrix
+[[ 41 170]
+ [  0 194]]
+SVM ImagePixel
+
+Accuracy SVM - ImagePixel : 85.19%
+
+Precision Score SVM - ImagePixel: 100.00%
+
+Recall Score SVM - ImagePixel: 69.07%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.78      1.00      0.88       211
+        car       1.00      0.69      0.82       194
+
+avg / total       0.88      0.85      0.85       405
+
+Confusion Matrix
+[[211   0]
+ [ 60 134]]
+SVM Histogram
+
+Accuracy SVM - Histogram : 47.90%
+
+Precision Score SVM - Histogram: 47.90%
+
+Recall Score SVM - Histogram: 100.00%
+
+Classification Report
+
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+         ev       0.00      0.00      0.00       211
+        car       0.48      1.00      0.65       194
+
+avg / total       0.23      0.48      0.31       405
+
+Confusion Matrix
+[[  0 211]
+ [  0 194]]
+KNN3 Histogram
+
+Accuracy KNN3 - Histogram : 92.84%
+
+Precision Score KNN3 - Histogram: 89.10%
+
+Recall Score KNN3 - Histogram: 96.91%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.97      0.89      0.93       211
+        car       0.89      0.97      0.93       194
+
+avg / total       0.93      0.93      0.93       405
+
+Confusion Matrix
+[[188  23]
+ [  6 188]]
+KNN3 ImagePixel
+
+Accuracy KNN3 - ImagePixel : 94.32%
+
+Precision Score KNN3 - ImagePixel: 100.00%
+
+Recall Score KNN3 - ImagePixel: 88.14%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.90      1.00      0.95       211
+        car       1.00      0.88      0.94       194
+
+avg / total       0.95      0.94      0.94       405
+
+Confusion Matrix
+[[211   0]
+ [ 23 171]]
+KNN3 HOG
+
+Accuracy KNN3 - HOG : 76.79%
+
+Precision Score KNN3 - HOG: 67.48%
+
+Recall Score KNN3 - HOG: 99.48%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.99      0.56      0.72       211
+        car       0.67      0.99      0.80       194
+
+avg / total       0.84      0.77      0.76       405
+
+Confusion Matrix
+[[118  93]
+ [  1 193]]
+MLP HOG
+
+Accuracy MLP - HOG : 95.56%
+
+Precision Score MLP - HOG: 93.56%
+
+Recall Score MLP - HOG: 97.42%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.98      0.94      0.96       211
+        car       0.94      0.97      0.95       194
+
+avg / total       0.96      0.96      0.96       405
+
+Confusion Matrix
+[[198  13]
+ [  5 189]]
+MLP ImagePixel
+/usr/local/lib/python2.7/dist-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+
+Accuracy MLP - ImagePixel : 52.10%
+
+Precision Score MLP - ImagePixel: 0.00%
+
+Recall Score MLP - ImagePixel: 0.00%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.52      1.00      0.69       211
+        car       0.00      0.00      0.00       194
+
+avg / total       0.27      0.52      0.36       405
+
+Confusion Matrix
+[[211   0]
+ [194   0]]
+MLP Histogram
+
+Accuracy MLP - Histogram : 97.28%
+
+Precision Score MLP - Histogram: 96.92%
+
+Recall Score MLP - Histogram: 97.42%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.98      0.97      0.97       211
+        car       0.97      0.97      0.97       194
+
+avg / total       0.97      0.97      0.97       405
+
+Confusion Matrix
+[[205   6]
+ [  5 189]]
+GradientBoosting ImagePixel
+
+Accuracy GradientBoosting - ImagePixel : 94.32%
+
+Precision Score GradientBoosting - ImagePixel: 93.85%
+
+Recall Score GradientBoosting - ImagePixel: 94.33%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.95      0.94      0.95       211
+        car       0.94      0.94      0.94       194
+
+avg / total       0.94      0.94      0.94       405
+
+Confusion Matrix
+[[199  12]
+ [ 11 183]]
+GradientBoosting HOG
+
+Accuracy GradientBoosting - HOG : 95.31%
+
+Precision Score GradientBoosting - HOG: 93.10%
+
+Recall Score GradientBoosting - HOG: 97.42%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.98      0.93      0.95       211
+        car       0.93      0.97      0.95       194
+
+avg / total       0.95      0.95      0.95       405
+
+Confusion Matrix
+[[197  14]
+ [  5 189]]
+GradientBoosting Histogram
+
+Accuracy GradientBoosting - Histogram : 98.52%
+
+Precision Score GradientBoosting - Histogram: 97.96%
+
+Recall Score GradientBoosting - Histogram: 98.97%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.99      0.98      0.99       211
+        car       0.98      0.99      0.98       194
+
+avg / total       0.99      0.99      0.99       405
+
+Confusion Matrix
+[[207   4]
+ [  2 192]]
+DecisionTree Histogram
+
+Accuracy DecisionTree - Histogram : 97.28%
+
+Precision Score DecisionTree - Histogram: 96.45%
+
+Recall Score DecisionTree - Histogram: 97.94%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.98      0.97      0.97       211
+        car       0.96      0.98      0.97       194
+
+avg / total       0.97      0.97      0.97       405
+
+Confusion Matrix
+[[204   7]
+ [  4 190]]
+DecisionTree ImagePixel
+
+Accuracy DecisionTree - ImagePixel : 89.88%
+
+Precision Score DecisionTree - ImagePixel: 88.06%
+
+Recall Score DecisionTree - ImagePixel: 91.24%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.92      0.89      0.90       211
+        car       0.88      0.91      0.90       194
+
+avg / total       0.90      0.90      0.90       405
+
+Confusion Matrix
+[[187  24]
+ [ 17 177]]
+DecisionTree HOG
+
+Accuracy DecisionTree - HOG : 89.88%
+
+Precision Score DecisionTree - HOG: 88.06%
+
+Recall Score DecisionTree - HOG: 91.24%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.92      0.89      0.90       211
+        car       0.88      0.91      0.90       194
+
+avg / total       0.90      0.90      0.90       405
+
+Confusion Matrix
+[[187  24]
+ [ 17 177]]
+RandomForrest HOG
+
+Accuracy RandomForrest - HOG : 95.06%
+
+Precision Score RandomForrest - HOG: 96.77%
+
+Recall Score RandomForrest - HOG: 92.78%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.94      0.97      0.95       211
+        car       0.97      0.93      0.95       194
+
+avg / total       0.95      0.95      0.95       405
+
+Confusion Matrix
+[[205   6]
+ [ 14 180]]
+RandomForrest Histogram
+
+Accuracy RandomForrest - Histogram : 98.52%
+
+Precision Score RandomForrest - Histogram: 98.96%
+
+Recall Score RandomForrest - Histogram: 97.94%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.98      0.99      0.99       211
+        car       0.99      0.98      0.98       194
+
+avg / total       0.99      0.99      0.99       405
+
+Confusion Matrix
+[[209   2]
+ [  4 190]]
+RandomForrest ImagePixel
+
+Accuracy RandomForrest - ImagePixel : 95.56%
+
+Precision Score RandomForrest - ImagePixel: 97.83%
+
+Recall Score RandomForrest - ImagePixel: 92.78%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.94      0.98      0.96       211
+        car       0.98      0.93      0.95       194
+
+avg / total       0.96      0.96      0.96       405
+
+Confusion Matrix
+[[207   4]
+ [ 14 180]]
+Adaboost Histogram
+
+Accuracy Adaboost - Histogram : 99.51%
+
+Precision Score Adaboost - Histogram: 99.48%
+
+Recall Score Adaboost - Histogram: 99.48%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       1.00      1.00      1.00       211
+        car       0.99      0.99      0.99       194
+
+avg / total       1.00      1.00      1.00       405
+
+Confusion Matrix
+[[210   1]
+ [  1 193]]
+Adaboost HOG
+
+Accuracy Adaboost - HOG : 96.30%
+
+Precision Score Adaboost - HOG: 95.90%
+
+Recall Score Adaboost - HOG: 96.39%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.97      0.96      0.96       211
+        car       0.96      0.96      0.96       194
+
+avg / total       0.96      0.96      0.96       405
+
+Confusion Matrix
+[[203   8]
+ [  7 187]]
+Adaboost ImagePixel
+
+Accuracy Adaboost - ImagePixel : 96.54%
+
+Precision Score Adaboost - ImagePixel: 96.88%
+
+Recall Score Adaboost - ImagePixel: 95.88%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.96      0.97      0.97       211
+        car       0.97      0.96      0.96       194
+
+avg / total       0.97      0.97      0.97       405
+
+Confusion Matrix
+[[205   6]
+ [  8 186]]
+ExtraTree Histogram
+
+Accuracy ExtraTree - Histogram : 98.77%
+
+Precision Score ExtraTree - Histogram: 98.96%
+
+Recall Score ExtraTree - Histogram: 98.45%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.99      0.99      0.99       211
+        car       0.99      0.98      0.99       194
+
+avg / total       0.99      0.99      0.99       405
+
+Confusion Matrix
+[[209   2]
+ [  3 191]]
+ExtraTree HOG
+
+Accuracy ExtraTree - HOG : 94.07%
+
+Precision Score ExtraTree - HOG: 96.20%
+
+Recall Score ExtraTree - HOG: 91.24%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.92      0.97      0.94       211
+        car       0.96      0.91      0.94       194
+
+avg / total       0.94      0.94      0.94       405
+
+Confusion Matrix
+[[204   7]
+ [ 17 177]]
+ExtraTree ImagePixel
+
+Accuracy ExtraTree - ImagePixel : 96.79%
+
+Precision Score ExtraTree - ImagePixel: 98.40%
+
+Recall Score ExtraTree - ImagePixel: 94.85%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.95      0.99      0.97       211
+        car       0.98      0.95      0.97       194
+
+avg / total       0.97      0.97      0.97       405
+
+Confusion Matrix
+[[208   3]
+ [ 10 184]]
+XGboost ImagePixel
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Accuracy XGboost - ImagePixel : 98.27%
+
+Precision Score XGboost - ImagePixel: 99.47%
+
+Recall Score XGboost - ImagePixel: 96.91%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.97      1.00      0.98       211
+        car       0.99      0.97      0.98       194
+
+avg / total       0.98      0.98      0.98       405
+
+Confusion Matrix
+[[210   1]
+ [  6 188]]
+XGboost HOG
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Accuracy XGboost - HOG : 97.53%
+
+Precision Score XGboost - HOG: 97.42%
+
+Recall Score XGboost - HOG: 97.42%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       0.98      0.98      0.98       211
+        car       0.97      0.97      0.97       194
+
+avg / total       0.98      0.98      0.98       405
+
+Confusion Matrix
+[[206   5]
+ [  5 189]]
+XGboost Histogram
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Accuracy XGboost - Histogram : 99.75%
+
+Precision Score XGboost - Histogram: 100.00%
+
+Recall Score XGboost - Histogram: 99.48%
+
+Classification Report
+
+             precision    recall  f1-score   support
+
+         ev       1.00      1.00      1.00       211
+        car       1.00      0.99      1.00       194
+
+avg / total       1.00      1.00      1.00       405
+
+Confusion Matrix
+[[211   0]
+ [  1 193]]

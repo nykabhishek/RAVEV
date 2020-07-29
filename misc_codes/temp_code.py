@@ -13,7 +13,7 @@ def main():
 
 def smic():
     clf = SMIC()
-    clf.prepare_train_data('/home/abhishek/Documents/projects/RAVEV/smic_data')
+    clf.prepare_train_data('/home/Documents/projects/RAVEV/smic_data')
     hyperparameters = clf.search_optimal_parameters()
     #hyperparameters = {'transfer_model' : 'vgg16', 'optimizer' : 'sgd', 
 	#				'top_layers' : [['dense', 512, 'relu'],['dense', 512, 'relu']]}
@@ -27,8 +27,8 @@ def prepare_dataset():
 
 
     for i in range(0,file_num):
-        imgfile = cv2.imread('/home/abhishek/Documents/projects/RAVEV/dataset/'+str(jobtype)+'/test'+str(i)+'.jpg')
-        txtfile = open('/home/abhishek/Documents/projects/RAVEV/dataset/'+str(jobtype)+'/test'+str(i)+'.txt','r+')
+        imgfile = cv2.imread('/home/Documents/projects/RAVEV/dataset/'+str(jobtype)+'/test'+str(i)+'.jpg')
+        txtfile = open('/home/Documents/projects/RAVEV/dataset/'+str(jobtype)+'/test'+str(i)+'.txt','r+')
 
         [height, width, channels] = imgfile.shape
 
@@ -45,10 +45,10 @@ def prepare_dataset():
             roi_bgr = imgfile[int(y_min):int(y_max) , int(x_min):int(x_max)]
 
             if Class_id == '1':
-                cv2.imwrite('/home/abhishek/Documents/projects/RAVEV/dataset/train/ev/ev_'+str(i)+'_'+str(line_num)+'.jpg',roi_bgr)
+                cv2.imwrite('/home/Documents/projects/RAVEV/dataset/train/ev/ev_'+str(i)+'_'+str(line_num)+'.jpg',roi_bgr)
                 Class = 'EV'
             elif Class_id =='2':
-                cv2.imwrite('/home/abhishek/Documents/projects/RAVEV/dataset/train/car/car_'+str(i)+'_'+str(line_num)+'.jpg',roi_bgr)
+                cv2.imwrite('/home/Documents/projects/RAVEV/dataset/train/car/car_'+str(i)+'_'+str(line_num)+'.jpg',roi_bgr)
                 Class = 'car'
 
 

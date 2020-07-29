@@ -1,4 +1,4 @@
-# Response of Autonomous Vehicles to Emergency Response Vehicles (RAVEV)
+# Response of Autonomous Vehicles towards Emergency Response Vehicles (RAVEV)
 
 This repository contains code developed as a part of the [SAFE-D project - RAVEV](https://www.vtti.vt.edu/utc/safe-d/index.php/projects/response-of-autonomous-vehicles-to-emergency-response-vehicles/) which ivestigates methods for an autonomous vehicle to identfy and safely respond to emergency vehicles in emergency scenarios.
 

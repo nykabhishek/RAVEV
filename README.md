@@ -7,5 +7,5 @@ More details on this project can be found at (https://sites.google.com/tamu.edu/
 ## Requirements:
 - Python 2.7
 - [ROS Kinetic Kame](https://wiki.ros.org/action/fullsearch/kinetic)
-- [Darknet (YOLO-v3)](https://github.com/pjreddie/darknet)
+- [darknet_ROS](https://github.com/leggedrobotics/darknet_ros)
 - [SORT Tracker](https://github.com/abewley/sort)

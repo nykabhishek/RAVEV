@@ -8,4 +8,4 @@ More details on this project can be found at (https://sites.google.com/tamu.edu/
 - Python 2.7
 - [ROS Kinetic Kame](https://wiki.ros.org/action/fullsearch/kinetic)
 - [darknet_ROS](https://github.com/leggedrobotics/darknet_ros)
-- [SORT Tracker](https://github.com/abewley/sort)
+- [sort](https://github.com/abewley/sort)

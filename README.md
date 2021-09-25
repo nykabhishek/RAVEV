@@ -4,6 +4,7 @@ This repository contains code developed as part of the [SAFE-D project - RAVEV](
 
 More details on this project can be found at (https://sites.google.com/tamu.edu/ravev/home)
 
+If you use code or weights shared in this repository, please consider citing:
 ```
 @techreport{nayak2020reference,
   title={Reference Test System for Machine Vision Used for ADAS Functions},

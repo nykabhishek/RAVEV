@@ -6,10 +6,10 @@ More details on this project can be found at (https://sites.google.com/tamu.edu/
 
 If you use code or weights shared in this repository, please consider citing:
 ```
-@techreport{nayak2020reference,
-  title={Reference Test System for Machine Vision Used for ADAS Functions},
-  author={Nayak, Abhishek and Rathinam, Sivakumar and Pike, Adam and Gopalswamy, Swaminathan},
-  year={2020},
+@techreport{nayak2019vision,
+  title={Vision-based techniques for identifying emergency vehicles},
+  author={Nayak, Abhishek and Gopalswamy, Swaminathan and Rathinam, Sivakumar},
+  year={2019},
   institution={SAE Technical Paper}
 }
 ```

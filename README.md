@@ -4,6 +4,15 @@ This repository contains code developed as part of the [SAFE-D project - RAVEV](
 
 More details on this project can be found at (https://sites.google.com/tamu.edu/ravev/home)
 
+```
+@techreport{nayak2020reference,
+  title={Reference Test System for Machine Vision Used for ADAS Functions},
+  author={Nayak, Abhishek and Rathinam, Sivakumar and Pike, Adam and Gopalswamy, Swaminathan},
+  year={2020},
+  institution={SAE Technical Paper}
+}
+```
+
 ## Requirements:
 - Python 2.7
 - [ROS Kinetic Kame](https://wiki.ros.org/action/fullsearch/kinetic)

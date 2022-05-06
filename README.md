@@ -15,7 +15,7 @@ If you use code or weights shared in this repository, please consider citing:
 ```
 
 ## Requirements:
-- Python 2.7
+- `Python 2.7`
 - [ROS Kinetic Kame](https://wiki.ros.org/action/fullsearch/kinetic)
 - [darknet_ROS](https://github.com/leggedrobotics/darknet_ros)
 - [sort](https://github.com/abewley/sort)
